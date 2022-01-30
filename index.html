@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <title>Video pLayer</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+    <div class="Reprod">
+
+
+
+      <div class="player-actions">
+        <h1 class="title-palyer"> Musica for  Programmer</h1>
+        <div class="player-progress">
+          <input id="range" type="range" min="0" value="0" step=".1">
+        </div>
+        <button id="backaward" class="button" aria-label="Retrroceder 10 segundos"
+          title="Retrroceder 10 segundos"></button>
+        <button id="play" aria-label="Reproducir" title="Reproducir" class="button"></button>
+        <button id="pause" aria-label="Pause" title="Pusa" class="button"></button>
+        <button id="forward" aria-label="Adelantar 10 segundos" title="Adelantar 10 segundos" class="button"></button>
+
+      </div>
+
+      <video id="video" poster="" src="./video/music.mp4"></video>
+
+    </div>
+
+  </div>
+</body>
+<script src='./scripts.js/index.js'></script>
+
+
+
+
+</html>
